@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('includes/header'); -%>
+<body>
+    <div class="box" id="heading">
+        <h1><%= listTitle %></h1>
+    </div>
+
+    <div class="box">
+        <% newListItems.forEach(element => { %>
+            <form action="/delete" method="post">
+                <div class="item">
+                    <!-- adding submiting functionality on checkboc checked -->
+                    <input name="checkBox" type="checkbox" value="<%= element._id %>" onChange="this.form.submit()">
+                    <input type="hidden" name="listName" value="<%= listTitle %>">
+                    <p><%= element.name %></p>
+                </div>   
+            </form>
+        <% }); %>
+        <form class="item" action="/" method="post">
+            <input type="text" name="newItem" id="listNewItem" placeholder="New item" autocomplete="off">
+            <button type="submit" name="list" value="<%= listTitle %>" >+</button>
+        </form>
+    </div>
+</body>
+<%- include('includes/footer'); -%>
+</html>
