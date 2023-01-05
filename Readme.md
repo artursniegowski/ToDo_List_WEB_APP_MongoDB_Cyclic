@@ -56,19 +56,26 @@ https://docs.cyclic.sh/how-to/using-mongo-db</br>
 </br>
 
 
-![Screenshot](docs/img/01_img.png)</br>
+![Screenshot](docs/img/01_image.png)</br>
 
 
-![Screenshot](docs/img/02_img.png)</br>
+![Screenshot](docs/img/02_image.png)</br>
 
 
-![Screenshot](docs/img/03_img.png)</br>
+![Screenshot](docs/img/03_image.png)</br>
 
 
-![Screenshot](docs/img/04_img.png)</br>
+![Screenshot](docs/img/04_image.png)</br>
 
 
-![Screenshot](docs/img/05_img.png)</br>
+![Screenshot](docs/img/05_image.png)</br>
+
+
+![Screenshot](docs/img/06_image.png)</br>
+
+
+![Screenshot](docs/img/07_image.png)</br>
+
 
 ---
 
